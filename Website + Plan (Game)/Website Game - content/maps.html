@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="map-style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>game-detail</title>
+</head>
+
+<body>
+    <header class="header">
+      <a href="context.html" class="logo">Overwatch 2</a>
+
+      <input type="checkbox" id="check">
+
+      <label for="check" class="icons">
+          <i class='bx bx-menu' id="menu-icon"></i> 
+          <i class='bx bx-exit' id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+          <a href="context.html">Home</a>
+          <a href="game-detail.html">Game Details</a>
+          <a href="spec.html">Specification</a>
+          <a href="#home"><span class="playnow">PLAY NOW</span> </a>
+        </nav>
+
+    </header>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img alt="Eichenwalde is a map in overwatch" src="Image/Eichenwalde.png">
+          <div class="text">Eichenwaldet</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img alt="Busan a map in overwatch 2" src="Image/Busan.png">
+          <div class="text">Busan</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img alt="blizzard-world is a map in overwatch 2" src="Image/blizzard-world.png">
+          <div class="text">Blizzard World</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img alt="Route 66 is a map in OverWatch 2" src="Image/route-66.png">
+            <div class="text">Route 66</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img alt="a map in Australia in OverWatch 2" src="Image/Junkertown.png">
+            <div class="text">Junkertown</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img alt="Havana is a map in overwatch 2" src="Image/Havana.png">
+            <div class="text">Havana</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img alt="Nepal is a map in overwatch 2" src="Image/Nepal.png">
+            <div class="text">Nepal</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img alt="Kings Row is a map in overwatch 2" src="Image/kings-row.png">
+            <div class="text">Kings Row</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img alt="Hollywood is a map in overwatch 2" src="Image/Hollywood.png">
+            <div class="text">Hollywood</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img alt="Suravasa is a map in overwatch 2 " src="Image/Suravasa.png">
+            <div class="text">Suravasa</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+ 
+</body>
+</html>
