@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000000;
+}
+
+.mainhero{
+    height: 100vh;
+    width: auto;
+    background-image: url("images/James-bond.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 5%;
+    
+}
+
+.descri{
+    float: right;
+    margin-right: 12%;
+    padding-top: 15%;
+}
+
+.mainhero h1{
+    color: black;
+    margin-top: 15%;
+    font-size: 80px;
+
+}
+
+.mainhero p{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 13%;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.navbar a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 15px;
+}
+
+.who{
+    height: 57vh;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 13%;
+}
+
+.james-head{
+    height: 100%;
+    width: auto;
+    margin-left: 100px; 
+    float: left;
+    margin-right: 5%;
+    border-bottom-right-radius: 200px 200px;
+
+}
+
+.james-head2{
+    height: 100%;
+    width: auto;
+    margin-left: 100px; 
+    float: right;
+    margin-right: 5%;
+    border-bottom-right-radius: 200px 200px;
+
+}
+
+.who section{
+    padding-top: 50px;
+}
+
+.who h2{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 58px;
+    padding-bottom: 40px;
+}
+
+.who p{
+    color: #D9D9D9;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+.cars-container{
+    height: 57vh;
+    width: 100%;
+    margin-top: 22%;
+    margin-bottom: 20%;
+    padding-left: 13%;
+    padding-right: 10%;
+}
+
+.cars-container h2{
+    color: #fff;
+    font-size: 58px;
+    padding-bottom: 10%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.car-img{
+    height: 50%;
+    width: auto;
+    margin-left: 100px; 
+    float: right;
+    margin-right: 5%;
+}
+
+.car-desc{
+    color: #D9D9D9;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+}
+
+.button{
+    padding: 25px 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #EBE4DB;
+    border: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+
+.button-container{
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.movie-container{
+    height: 57vh;
+    width: 100%;
+    margin-top: 22%;
+    margin-bottom: 20%;
+    padding-right: 10%;
+}
+
+.movie-img{
+    height: 100%;
+    width: auto;
+    float: left;
+    margin-right: 5%;
+    border-bottom-left-radius: 200px 200px;
+    border-top-left-radius: 200px 200px;
+}
+
+.movie-container h2{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 58px;
+}
+
+.button-container-movie{
+    margin-top: 10%;
+}
+
+.villains-container{
+    height: 57vh;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    padding-left: 13%;
+    padding-right: 10%;
+}
+
+.villains-img{
+    height: 100%;
+    width: auto;
+    margin-left: 100px; 
+    float: right;
+    margin-right: 5%;
+    border-bottom-right-radius: 200px 200px;
+}
+
+.villains-container h2{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 58px;
+    padding-bottom: 40px;
+}
+
+.villains-container p{
+    color: #D9D9D9;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.villains-container section{
+    padding-left: 5%;
+}
+
+.quote-container{
+    height: 100%;
+    width: auto;
+    margin-left: 100px; 
+    float: left;
+    margin-right: 5%;
+}
+
+.james-half{
+    height: 85vh;
+    width: auto; 
+    float: left;
+    margin-right: 5%;
+    margin-left: -5%;
+}
+.quote-container p{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 80px;
+    padding-bottom: 40px;
+    padding-top: 15%;
+    font-weight: 900;
+}
+
+
+.footercontainer{
+    margin-top: 58%;
+    width: 100%;
+    padding: 70px 30px 20px;
+    background-color: #7B7B7B;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.socialicon a i{
+    font-size: 3em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+#check{
+    display: none;
+}
+
+.icons{
+    right: 5%;
+    position: absolute;
+    font-size: 2.8rem;
+    color: black;
+    display: none;
+}
+
+
+
+.footernav{
+    margin: 30px 0;
+}
+
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerlist a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    list-style: none;
+    transition: 0.5s;
+
+}
+
+.footerlist a:hover{
+    color: #232d5e;
+
+}
+
+.footerbottom{
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom{
+    color: #fff;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/*responsive*/
+@media (max-width: 768px){
+    .icons{
+        display: inline-flex;  
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: white;
+        box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .1s ease;
+    }
+
+
+    #check:checked~.navbar{
+        height:13.7rem ;
+
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
